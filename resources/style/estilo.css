@@ -2,7 +2,7 @@
 
 body{
 
-    background-color:#fff;
+    background-color:azure;
 }
 
 .jumbotron{
@@ -10,5 +10,5 @@ body{
     border-radius:3px;
 }
 .container {
-          box-shadow: 0 0 30px black;
+          box-shadow: 0 0 5px black;
         }
