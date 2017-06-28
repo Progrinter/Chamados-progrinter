@@ -8,9 +8,13 @@ module.exports = function(app){
         res.render("pessoa.ejs");
     });
     
-    app.get('/solicitacao',function(req,res){
-        res.render("solicitacao.ejs");
+    app.get('/solicitacao-juridica',function(req,res){
+        res.render("solicitacao-juridica.ejs");
     });
+
+    app.get('/solicitacao-fisica',function(req,res){
+        res.render("solicitacao-fisica.ejs");
+    })
     
     app.get('/login',function(req,res){
         res.render("login.ejs");
